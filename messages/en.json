@@ -23,6 +23,25 @@
     "viewDetails": "View Details", "back": "Back to Gallery", "about": "About this property",
     "loadMore": "Load More Properties", "loading": "Loading..."
   },
+  "about": {
+    "eyebrow": "Our Story",
+    "title": "Built on Trust, Delivered with Excellence",
+    "intro": "Over a decade of crafting homes, building infrastructure, and delivering safety solutions across Kerala.",
+    "stat1Num": "10+", "stat1Lbl": "Years of Experience",
+    "stat2Num": "500+", "stat2Lbl": "Projects Completed",
+    "stat3Num": "1000+", "stat3Lbl": "Happy Families",
+    "stat4Num": "4", "stat4Lbl": "Service Divisions",
+    "storyEyebrow": "Who We Are",
+    "storyTitle": "A Legacy of Quality Construction",
+    "storyP1": "Signature Contractors & Developers was founded with a singular vision — to raise the standard of construction and real estate in Kerala. From our roots in Calicut, we have grown into a trusted name across the state, delivering projects that stand the test of time.",
+    "storyP2": "We bring together expertise in real estate development, building construction, fire & safety solutions, and road transport contracting — all under one trusted signature. Every project we undertake carries our commitment to quality, transparency, and on-time delivery.",
+    "valEyebrow": "Our Values",
+    "valTitle": "The Principles We Build On",
+    "v1Title": "Integrity", "v1Desc": "Honest pricing, clear timelines, and no hidden surprises — we say what we do and we do what we say.",
+    "v2Title": "Quality", "v2Desc": "Premium materials, certified contractors, and rigorous checks at every stage of construction.",
+    "v3Title": "Trust", "v3Desc": "Over a decade of relationships built on reliability — our clients return, and they refer us to others.",
+    "v4Title": "Innovation", "v4Desc": "Modern designs, smart planning, and technology-driven project management for the best outcomes."
+  },
   "contact": {
     "eyebrow": "Contact Us",
     "title": "Let's talk",
