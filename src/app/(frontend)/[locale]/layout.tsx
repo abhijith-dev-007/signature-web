@@ -13,6 +13,11 @@ export function generateStaticParams() {
 export const metadata = {
   title: 'Signature — Contractors & Developers',
   description: 'Real estate, construction, fire & safety and transport across Kerala.',
+  icons: {
+    icon: '/assets/logo-icon.png',
+    shortcut: '/assets/logo-icon.png',
+    apple: '/assets/logo-icon.png',
+  },
 }
 
 export default async function LocaleLayout({
