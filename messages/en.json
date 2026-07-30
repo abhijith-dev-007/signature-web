@@ -1,0 +1,28 @@
+{
+  "nav": { "home": "Home", "about": "About Us", "gallery": "Gallery", "services": "Our Services", "contact": "Contact Us", "whatsapp": "WhatsApp" },
+  "hero": { "viewProperties": "View Properties", "ourDivisions": "Our Divisions", "scroll": "Scroll" },
+  "divisions": {
+    "eyebrow": "What We Do",
+    "title": "Four divisions, one signature standard",
+    "realEstate": "Real Estate & Developers",
+    "construction": "Builders & Construction",
+    "fire": "Fire & Safety Solutions",
+    "transport": "Road Transport Contractors"
+  },
+  "featured": { "eyebrow": "Featured Listings", "title": "Properties worth signing for", "viewAll": "View Full Gallery" },
+  "servicesPreview": { "eyebrow": "What We Offer", "title": "Services under one signature", "viewAll": "View All Services", "enquire": "Enquire Now" },
+  "gallery": {
+    "eyebrow": "Property Gallery",
+    "title": "Homes. Land. Landmarks.",
+    "intro": "Browse our live listings across Kerala. Enquire directly on WhatsApp or email — every listing, one tap away.",
+    "tabHouse": "Houses for Sale", "tabLand": "Land for Sale", "tabSold": "Sold Properties",
+    "sold": "SOLD",
+    "buyEnquiry": "Buy Enquiry", "emailUs": "Email Us", "findSimilar": "Find Similar",
+    "interested": "Interested in this property?", "similar": "Looking for something similar?",
+    "viewDetails": "View Details", "back": "Back to Gallery", "about": "About this property",
+    "loadMore": "Load More Properties", "loading": "Loading..."
+  },
+  "services": { "eyebrow": "Our Services", "title": "One team. Every trade.", "enquireWa": "Enquire on WhatsApp", "email": "Email" },
+  "cta": { "tag": "BUILT ON TRUST · DELIVERED WITH EXCELLENCE", "title": "Let's build your next signature", "whatsapp": "Enquire on WhatsApp", "consult": "Book a Consultation" },
+  "footer": { "rights": "© 2026 Signature Contractors & Developers. All rights reserved." }
+}
