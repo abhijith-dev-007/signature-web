@@ -17,10 +17,17 @@
     "intro": "Browse our live listings across Kerala. Enquire directly on WhatsApp or email — every listing, one tap away.",
     "tabHouse": "Houses for Sale", "tabLand": "Land for Sale", "tabSold": "Sold Properties",
     "sold": "SOLD",
+    "tagHouse": "House · For Sale", "tagLand": "Land · For Sale",
     "buyEnquiry": "Buy Enquiry", "emailUs": "Email Us", "findSimilar": "Find Similar",
     "interested": "Interested in this property?", "similar": "Looking for something similar?",
     "viewDetails": "View Details", "back": "Back to Gallery", "about": "About this property",
     "loadMore": "Load More Properties", "loading": "Loading..."
+  },
+  "contact": {
+    "eyebrow": "Contact Us",
+    "title": "Let's talk",
+    "intro": "Reach us on WhatsApp, phone or email — or send an enquiry and we'll get back to you.",
+    "whatsapp": "WhatsApp", "call": "Call Us", "email": "Email Us"
   },
   "services": { "eyebrow": "Our Services", "title": "One team. Every trade.", "enquireWa": "Enquire on WhatsApp", "email": "Email" },
   "cta": { "tag": "BUILT ON TRUST · DELIVERED WITH EXCELLENCE", "title": "Let's build your next signature", "whatsapp": "Enquire on WhatsApp", "consult": "Book a Consultation" },

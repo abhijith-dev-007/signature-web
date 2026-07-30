@@ -45,7 +45,7 @@ export function GalleryGrid({ properties }: { properties: Property[] }) {
         <div className="grid">
           {shown.map((p) => {
             const isSold = p.status === 'sold'
-            const tagLabel = p.propertyType === 'land' ? 'Land · For Sale' : 'House · For Sale'
+            const tagLabel = p.propertyType === 'land' ? t('tagLand') : t('tagHouse')
             return (
               <article className="gcard in" key={p.id}>
                 <div className="gimg">
