@@ -8,7 +8,10 @@ const nextConfig = {
   devIndicators: false,
   images: {
     remotePatterns: [
-      // add your S3/CloudFront host here later
+      {
+        protocol: 'https',
+        hostname: '**.amazonaws.com',
+      },
     ],
   },
 }

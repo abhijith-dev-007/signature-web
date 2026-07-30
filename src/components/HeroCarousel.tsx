@@ -14,7 +14,7 @@ export type Slide = {
 
 export function HeroCarousel({ slides, scrollLabel }: { slides: Slide[]; scrollLabel: string }) {
   const [idx, setIdx] = useState(0)
-  const timer = useRef<ReturnType<typeof setTimeout>>()
+  const timer = useRef<ReturnType<typeof setTimeout>>(undefined)
   const n = slides.length
 
   const go = (to: number) => setIdx(((to % n) + n) % n)
