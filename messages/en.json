@@ -50,5 +50,8 @@
   },
   "services": { "eyebrow": "Our Services", "title": "One team. Every trade.", "enquireWa": "Enquire on WhatsApp", "email": "Email" },
   "cta": { "tag": "BUILT ON TRUST · DELIVERED WITH EXCELLENCE", "title": "Let's build your next signature", "whatsapp": "Enquire on WhatsApp", "consult": "Book a Consultation" },
-  "footer": { "rights": "© 2026 Signature Contractors & Developers. All rights reserved." }
+  "footer": {
+    "rights": "© 2026 Signature Contractors & Developers. All rights reserved.",
+    "address": "Kunnath Towers, 3rd Floor, Marakkadavu Pullappally Road, Sulthan Bathery, Pulpalli, Wayanad, Kerala — 673579"
+  }
 }
