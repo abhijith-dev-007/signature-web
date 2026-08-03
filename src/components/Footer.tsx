@@ -28,7 +28,7 @@ export function Footer() {
         </div>
         <div className="foot-col">
           <h4>{t('nav.contact')}</h4>
-          <p>Palakkad, Kerala, India</p>
+          <p>Kunnath Towers, 3rd Floor,<br />Marakkadavu Pullappally Road,<br />Sulthan Bathery, Pulpalli,<br />Wayanad, Kerala — 673579</p>
           <a href={`tel:+${WA_NUMBER}`}>+{WA_NUMBER}</a>
           <a href={`mailto:${MAIL}`}>{MAIL}</a>
         </div>
