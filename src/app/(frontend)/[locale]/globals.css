@@ -578,8 +578,8 @@ html[data-lang="ml"] .brand-name{letter-spacing:.06em}
 .srow{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,5vw,80px);align-items:center;margin-bottom:clamp(56px,7vw,96px)}
 .srow:last-child{margin-bottom:0}
 .srow:nth-of-type(even) .simg-wrap{order:2}
-.simg-wrap{position:relative;border-radius:12px;overflow:hidden;border:1px solid var(--line);aspect-ratio:4/3;background:var(--gold-grad)}
-.simg-wrap .simg{position:absolute;inset:0;background-size:cover;background-position:center;transition:transform .7s ease}
+.simg-wrap{position:relative;border-radius:12px;overflow:hidden;border:1px solid var(--line);aspect-ratio:4/3;background:var(--graphite-2)}
+.simg-wrap .simg{position:absolute;inset:0;background-size:contain;background-position:center;background-repeat:no-repeat;transition:transform .7s ease}
 .srow:hover .simg{transform:scale(1.05)}
 .simg-wrap::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,10,.12),rgba(10,10,10,.5))}
 .simg-icon{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:1;opacity:.26}
