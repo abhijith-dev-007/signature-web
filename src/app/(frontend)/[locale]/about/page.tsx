@@ -73,7 +73,8 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         <h2 className="display" style={{ fontSize: 'clamp(1.8rem,3.5vw,3rem)', marginBottom: 32 }}>
           Ready to build your dream?
         </h2>
-        <a href={waLink('Hi Signature, I have an enquiry about your services.')} className="btn-gold" target="_blank" rel="noopener">
+        <a href={waLink('Hi Signature, I have an enquiry about your services.')} className="btn-whatsapp" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15l-1.4 5 5.2-1.4A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-3-.2-.3A8 8 0 1 1 12 20zm4.4-5.9c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.8 1-.3.1-.5 0a6.5 6.5 0 0 1-1.9-1.2 7.3 7.3 0 0 1-1.4-1.7c-.1-.2 0-.4.1-.5l.4-.4.2-.4a.4.4 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4H8a.9.9 0 0 0-.7.3 2.8 2.8 0 0 0-.9 2.1 4.9 4.9 0 0 0 1 2.6 11 11 0 0 0 4.3 3.8c2.3 1 2.3.7 2.7.6a2.5 2.5 0 0 0 1.6-1.1 2 2 0 0 0 .1-1.1c0-.1-.2-.2-.4-.3z" /></svg>
           Enquire on WhatsApp
         </a>
       </section>

@@ -15,13 +15,19 @@
     "eyebrow": "Property Gallery",
     "title": "Homes. Land. Landmarks.",
     "intro": "Browse our live listings across Kerala. Enquire directly on WhatsApp or email — every listing, one tap away.",
-    "tabHouse": "Houses for Sale", "tabLand": "Land for Sale", "tabSold": "Sold Properties",
+    "tabHouse": "Houses for Sale", "tabLand": "Land for Sale", "tabCommercial": "Commercial Buildings & Properties", "tabSold": "Sold Properties",
     "sold": "SOLD",
-    "tagHouse": "House · For Sale", "tagLand": "Land · For Sale",
+    "tagHouse": "House · For Sale", "tagLand": "Land · For Sale", "tagCommercial": "Commercial · For Sale",
     "buyEnquiry": "Buy Enquiry", "emailUs": "Email Us", "findSimilar": "Find Similar",
     "interested": "Interested in this property?", "similar": "Looking for something similar?",
     "viewDetails": "View Details", "back": "Back to Gallery", "about": "About this property",
-    "loadMore": "Load More Properties", "loading": "Loading..."
+    "loadMore": "Load More Properties", "loading": "Loading...",
+    "viewOnEarth": "View Location on Google Earth",
+    "viewOnEarthDesc": "See the aerial satellite view of this plot — explore the land, surroundings, and access roads before your visit.",
+    "viewOnEarthBtn": "Open in Google Earth",
+    "ctaTitle": "Didn't find what you're looking for?",
+    "ctaSub": "Need help with Buying, Selling, or Construction? Contact Us.",
+    "ctaWhatsapp": "Enquire on WhatsApp", "ctaCall": "Call Now"
   },
   "about": {
     "eyebrow": "Our Story",
@@ -44,14 +50,24 @@
   },
   "contact": {
     "eyebrow": "Contact Us",
-    "title": "Let's talk",
+    "title": "Get in touch",
+    "subtitle": "Buy, Sell & Build with Confidence.",
     "intro": "Reach us on WhatsApp, phone or email — or send an enquiry and we'll get back to you.",
-    "whatsapp": "WhatsApp", "call": "Call Us", "email": "Email Us"
+    "address": "ADDRESS", "addressValue": "Kunnath Towers, 3rd Floor, Marakkadavu Pulpally Road, Sulthan Bathery, Pulpally, Wayanad, Kerala — 673579",
+    "phone": "PHONE", "email": "EMAIL",
+    "whatsapp": "WhatsApp", "call": "Call Us",
+    "openMap": "Open in Google Maps",
+    "formTitle": "Request a Callback",
+    "formName": "Full Name *", "formEmail": "Email Address", "formPhone": "Phone Number", "formMessage": "How can we help?",
+    "formSubmit": "Send Request", "formSending": "Sending...",
+    "formSuccess": "Thank you! We'll get back to you shortly.",
+    "formError": "Something went wrong. Please try again."
   },
   "services": { "eyebrow": "Our Services", "title": "One team. Every trade.", "enquireWa": "Enquire on WhatsApp", "email": "Email" },
   "cta": { "tag": "BUILT ON TRUST · DELIVERED WITH EXCELLENCE", "title": "Let's build your next signature", "whatsapp": "Enquire on WhatsApp", "consult": "Book a Consultation" },
   "footer": {
     "rights": "© 2026 Signature Contractors & Developers. All rights reserved.",
-    "address": "Kunnath Towers, 3rd Floor, Marakkadavu Pullappally Road, Sulthan Bathery, Pulpalli, Wayanad, Kerala — 673579"
+    "address": "Kunnath Towers, 3rd Floor, Marakkadavu Pulpally Road, Sulthan Bathery, Pulpally, Wayanad, Kerala — 673579",
+    "followUs": "Follow Us"
   }
 }

@@ -127,12 +127,30 @@ export default async function PropertyDetailPage({
             </div>
           )}
 
+          {/* Google Earth link — land & commercial only */}
+          {property.googleEarthLink && (property.propertyType === 'land' || property.propertyType === 'commercial') && (
+            <div className="prop-earth">
+              <h2 className="prop-section-head">{t('viewOnEarth')}</h2>
+              <p className="prop-earth-desc">{t('viewOnEarthDesc')}</p>
+              <a href={property.googleEarthLink} target="_blank" rel="noopener" className="prop-earth-btn">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z" />
+                </svg>
+                {t('viewOnEarthBtn')}
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
+                </svg>
+              </a>
+            </div>
+          )}
+
           {/* Enquiry */}
           <div className="prop-enq">
             <p className="prop-enq-label">{isSold ? t('similar') : t('interested')}</p>
             <div className="prop-enq-btns">
-              <a href={wa} className="btn-gold" target="_blank" rel="noopener">
-                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+              <a href={wa} className="btn-whatsapp" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="#fff">
                   <path d="M12 2a10 10 0 0 0-8.6 15l-1.4 5 5.2-1.4A10 10 0 1 0 12 2zm4.4 12.1c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.8 1-.3.1-.5 0a6.5 6.5 0 0 1-1.9-1.2 7.3 7.3 0 0 1-1.4-1.7c-.1-.2 0-.4.1-.5l.4-.4.2-.4a.4.4 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4H8a.9.9 0 0 0-.7.3 2.8 2.8 0 0 0-.9 2.1 4.9 4.9 0 0 0 1 2.6 11 11 0 0 0 4.3 3.8c2.3 1 2.3.7 2.7.6a2.5 2.5 0 0 0 1.6-1.1 2 2 0 0 0 .1-1.1c0-.1-.2-.2-.4-.3z" />
                 </svg>
                 {isSold ? t('findSimilar') : t('buyEnquiry')}

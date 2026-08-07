@@ -1,4 +1,5 @@
 export const WA_NUMBER = '919292008096'
+export const ALT_NUMBER = '919447854801'
 export const MAIL = 'Signatureclt16@gmail.com'
 
 export const waLink = (msg: string) =>

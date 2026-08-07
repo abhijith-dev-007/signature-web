@@ -1,7 +1,7 @@
 import type { CollectionConfig } from 'payload'
 
-// GALLERY listings. The 3 gallery sections are just filters on this one
-// collection: propertyType=house, propertyType=land, status=sold.
+// GALLERY listings. The 4 gallery sections are just filters on this one
+// collection: propertyType=house, propertyType=land, propertyType=commercial, status=sold.
 export const Properties: CollectionConfig = {
   slug: 'properties',
   admin: {
@@ -20,6 +20,7 @@ export const Properties: CollectionConfig = {
       options: [
         { label: 'House for Sale', value: 'house' },
         { label: 'Land for Sale', value: 'land' },
+        { label: 'Commercial Buildings & Properties', value: 'commercial' },
       ],
     },
     {
@@ -43,6 +44,15 @@ export const Properties: CollectionConfig = {
       fields: [{ name: 'value', type: 'text', localized: true }],
     },
     { name: 'images', type: 'upload', relationTo: 'media', hasMany: true },
+    {
+      name: 'googleEarthLink',
+      type: 'text',
+      label: 'Google Earth / Maps Link',
+      admin: {
+        description: 'Paste the Google Earth or Google Maps satellite URL for this land/commercial plot. Leave blank for houses.',
+        condition: (data) => data.propertyType === 'land' || data.propertyType === 'commercial',
+      },
+    },
     { name: 'featured', type: 'checkbox', label: 'Show on homepage', defaultValue: false },
   ],
 }
