@@ -272,8 +272,8 @@ section{position:relative}
   background:var(--graphite-2);transition:.4s;position:relative;
 }
 .pcard:hover{transform:translateY(-6px);border-color:rgba(212,175,55,.65);box-shadow:inset 0 3px 0 rgba(212,175,55,.55),0 20px 50px rgba(0,0,0,.55)}
-.pcard-img{aspect-ratio:4/3;background:var(--gold-grad);background-size:cover;background-position:top center;position:relative;overflow:hidden}
-.pcard-img .ph{position:absolute;inset:0;background-size:cover;background-position:top center;transition:transform .6s ease}
+.pcard-img{aspect-ratio:4/3;background:var(--graphite-2);background-size:contain;background-position:center;position:relative;overflow:hidden}
+.pcard-img .ph{position:absolute;inset:0;background-size:contain;background-position:center;background-repeat:no-repeat;transition:transform .6s ease}
 .pcard:hover .pcard-img .ph{transform:scale(1.07)}
 .pcard-tag{
   position:absolute;top:14px;left:14px;z-index:2;
@@ -294,8 +294,8 @@ section{position:relative}
 .srow{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,72px);align-items:center;margin-bottom:64px}
 .srow:last-child{margin-bottom:0}
 .srow:nth-of-type(even) .simg-wrap{order:2}
-.simg-wrap{position:relative;border-radius:10px;overflow:hidden;border:1px solid var(--line);aspect-ratio:4/3;background:var(--gold-grad)}
-.simg-wrap .simg{position:absolute;inset:0;background-size:cover;background-position:center;transition:transform .7s ease}
+.simg-wrap{position:relative;border-radius:10px;overflow:hidden;border:1px solid var(--line);aspect-ratio:4/3;background:var(--graphite-2)}
+.simg-wrap .simg{position:absolute;inset:0;background-size:contain;background-position:center;background-repeat:no-repeat;transition:transform .7s ease}
 .srow:hover .simg{transform:scale(1.05)}
 .simg-wrap::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,10,.15),rgba(10,10,10,.55))}
 .simg-icon{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:1;opacity:.28}
@@ -454,8 +454,8 @@ html[data-lang="ml"] .brand-name{letter-spacing:.06em}
 .gcard.reveal{opacity:0;transform:translateY(30px)}
 .gcard.reveal.in{opacity:1;transform:none}
 
-.gimg{aspect-ratio:4/3;position:relative;overflow:hidden;background:var(--gold-grad)}
-.gimg .ph{position:absolute;inset:0;background-size:cover;background-position:top center;transition:transform .6s}
+.gimg{aspect-ratio:4/3;position:relative;overflow:hidden;background:var(--graphite-2)}
+.gimg .ph{position:absolute;inset:0;background-size:contain;background-position:center;background-repeat:no-repeat;transition:transform .6s}
 .gcard:hover .gimg .ph{transform:scale(1.07)}
 .gimg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(10,10,10,.55))}
 .gtag{position:absolute;top:14px;left:14px;z-index:3;background:rgba(10,10,10,.72);backdrop-filter:blur(6px);border:1px solid var(--line);color:var(--gold-2);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;padding:6px 12px;border-radius:30px}
