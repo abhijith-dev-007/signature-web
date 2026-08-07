@@ -51,7 +51,7 @@ export function HeroCarousel({ slides, scrollLabel }: { slides: Slide[]; scrollL
         <line x1="205" y1="160" x2="225" y2="160" /><line x1="205" y1="220" x2="225" y2="220" /><line x1="205" y1="280" x2="225" y2="280" />
       </svg>
 
-      <div className="hero-inner">
+      <div className="hero-top">
         {slides.map((s, i) => (
           <div key={s.id} className={`slide-content ${i === idx ? 'show' : ''}`}>
             {s.eyebrow && <span className="eyebrow">{s.eyebrow}</span>}
@@ -62,12 +62,19 @@ export function HeroCarousel({ slides, scrollLabel }: { slides: Slide[]; scrollL
                 </span>
               ))}
             </h1>
-            {s.subtitle && <p className="sub">{s.subtitle}</p>}
             {s.ctaLabel && s.ctaLink && (
               <div className="hero-cta">
                 <a href={s.ctaLink} className="btn-gold">{s.ctaLabel}</a>
               </div>
             )}
+          </div>
+        ))}
+      </div>
+
+      <div className="hero-bottom">
+        {slides.map((s, i) => (
+          <div key={s.id} className={`slide-content ${i === idx ? 'show' : ''}`}>
+            {s.subtitle && <p className="sub">{s.subtitle}</p>}
           </div>
         ))}
       </div>
