@@ -272,7 +272,7 @@ section{position:relative}
   background:var(--graphite-2);transition:.4s;position:relative;
 }
 .pcard:hover{transform:translateY(-6px);border-color:rgba(212,175,55,.65);box-shadow:inset 0 3px 0 rgba(212,175,55,.55),0 20px 50px rgba(0,0,0,.55)}
-.pcard-img{height:230px;background:var(--gold-grad);background-size:cover;background-position:top center;position:relative;overflow:hidden}
+.pcard-img{aspect-ratio:4/3;background:var(--gold-grad);background-size:cover;background-position:top center;position:relative;overflow:hidden}
 .pcard-img .ph{position:absolute;inset:0;background-size:cover;background-position:top center;transition:transform .6s ease}
 .pcard:hover .pcard-img .ph{transform:scale(1.07)}
 .pcard-tag{
@@ -454,7 +454,7 @@ html[data-lang="ml"] .brand-name{letter-spacing:.06em}
 .gcard.reveal{opacity:0;transform:translateY(30px)}
 .gcard.reveal.in{opacity:1;transform:none}
 
-.gimg{height:240px;position:relative;overflow:hidden;background:var(--gold-grad)}
+.gimg{aspect-ratio:4/3;position:relative;overflow:hidden;background:var(--gold-grad)}
 .gimg .ph{position:absolute;inset:0;background-size:cover;background-position:top center;transition:transform .6s}
 .gcard:hover .gimg .ph{transform:scale(1.07)}
 .gimg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(10,10,10,.55))}
