@@ -156,6 +156,74 @@ Read-only log of contact enquiries submitted through the website contact form. O
 
 ---
 
+## Image Upload Guidelines
+
+Understanding how images are displayed prevents photos from appearing cropped or showing dark bars around them.
+
+### Why photos sometimes look cropped or have empty space
+
+Every image slot on the website has a **fixed shape** (its aspect ratio). Your uploaded photo also has a shape — determined by how it was taken or cropped. When the two shapes don't match, the website has to choose one of two compromises:
+
+| Situation | Result |
+|---|---|
+| Photo fills the box completely | Edges of the photo are cropped off |
+| Photo fits inside the box fully | Dark bars appear where the shapes don't align |
+
+**The solution:** Crop your photo to the correct ratio before uploading. When the shapes match, there is no cropping and no bars — the photo fills the slot perfectly.
+
+---
+
+### Recommended ratios by image type
+
+| Where the image is used | Recommended ratio | Example pixel size |
+|---|---|---|
+| Property photos (gallery cards, detail page) | **4:3** | 1200 × 900 px |
+| Service images | **4:3** | 1200 × 900 px |
+| Hero slides (homepage carousel) | **16:9** | 1600 × 900 px |
+
+**4:3** is the standard photo ratio used by most DSLR cameras and many phones. If you photograph properties on a phone, check your camera settings — most phones allow switching between 4:3, 16:9, and square modes.
+
+---
+
+### How to crop a photo before uploading
+
+**On Android:**
+1. Open the photo in Gallery
+2. Tap the Edit (pencil) icon
+3. Tap **Crop** → select **4:3**
+4. Adjust the frame and save
+
+**On iPhone:**
+1. Open the photo in Photos
+2. Tap **Edit** → tap the crop icon (bottom right)
+3. Tap the ratio icon → select **4:3**
+4. Adjust and tap **Done**
+
+**On a computer (Windows):**
+1. Open the photo in Photos app
+2. Click the crop icon → select **Aspect ratio → 4:3**
+3. Save a copy
+
+---
+
+### File format and size
+
+- **Format:** JPEG (.jpg) is preferred. PNG is accepted but creates larger files.
+- **Maximum file size:** Keep images under **3 MB** per photo for fast loading.
+- **Minimum size:** 800 × 600 px. Smaller images look blurry on large screens.
+- **Ideal size:** 1200 × 900 px (4:3) for property images, 1600 × 900 px (16:9) for hero slides.
+
+---
+
+### Tips for property photos specifically
+
+- **First image = thumbnail** — the first image you upload for a property is used as the card thumbnail on the gallery grid. Make it the best exterior shot of the property.
+- **Order matters** — arrange images so the most important shots come first (exterior, then interior rooms, then land/surroundings).
+- **Portrait photos (vertical)** — if you only have portrait photos (taller than wide), crop them to 4:3 before uploading. Without cropping, a portrait photo uploaded to a landscape slot will show dark bars on both sides.
+- **WhatsApp photos** — photos shared on WhatsApp are compressed and sometimes resized. Use the original photo from the camera whenever possible.
+
+---
+
 ## Tips
 
 - **Deleting vs hiding:** Use the `Active` checkbox to hide content rather than deleting it. Deleted records cannot be recovered.
