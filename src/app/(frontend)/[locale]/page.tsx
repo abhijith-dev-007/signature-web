@@ -48,10 +48,51 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   }))
 
   const divisions = [
-    t('divisions.realEstate'),
-    t('divisions.construction'),
-    t('divisions.fire'),
-    t('divisions.transport'),
+    {
+      label: t('divisions.realEstate'),
+      tag: t('divisions.realEstateTag'),
+      icon: (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M3 9.5L12 3l9 6.5V21H3V9.5z"/>
+          <path d="M9 21v-7h6v7"/>
+        </svg>
+      ),
+    },
+    {
+      label: t('divisions.construction'),
+      tag: t('divisions.constructionTag'),
+      icon: (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round">
+          <rect x="4" y="3" width="12" height="19" rx="1"/>
+          <line x1="4" y1="9" x2="16" y2="9"/>
+          <line x1="4" y1="15" x2="16" y2="15"/>
+          <line x1="9" y1="3" x2="9" y2="22"/>
+          <path d="M16 7h3a1 1 0 011 1v13h-4"/>
+        </svg>
+      ),
+    },
+    {
+      label: t('divisions.fire'),
+      tag: t('divisions.fireTag'),
+      icon: (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M12 22c4 0 7-3 7-7 0-4-3-7-3-7s-.5 2.5-2.5 4C13 10 11 8 10.5 6 10.5 6 5 9 5 15c0 4 3 7 7 7z"/>
+          <path d="M12 22c-2 0-3.5-1.5-3.5-3.5 0-2 1.5-3.5 3.5-3.5s3.5 1.5 3.5 3.5C15.5 20.5 14 22 12 22z"/>
+        </svg>
+      ),
+    },
+    {
+      label: t('divisions.transport'),
+      tag: t('divisions.transportTag'),
+      icon: (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round">
+          <rect x="1" y="5" width="14" height="11" rx="1"/>
+          <path d="M15 8h4l3 4v4h-7V8z"/>
+          <circle cx="5.5" cy="18.5" r="2"/>
+          <circle cx="18.5" cy="18.5" r="2"/>
+        </svg>
+      ),
+    },
   ]
 
   return (
@@ -69,7 +110,9 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             {divisions.map((d, i) => (
               <div className="division reveal in" key={i}>
                 <span className="dnum">{String(i + 1).padStart(2, '0')}</span>
-                <h3>{d}</h3>
+                <div className="di">{d.icon}</div>
+                <h3>{d.label}</h3>
+                <p className="dtag">{d.tag}</p>
               </div>
             ))}
           </div>

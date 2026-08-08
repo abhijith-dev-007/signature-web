@@ -5,9 +5,13 @@
     "eyebrow": "What We Do",
     "title": "Four divisions, one signature standard",
     "realEstate": "Real Estate & Developers",
+    "realEstateTag": "Premium homes & plots across Kerala",
     "construction": "Builders & Construction",
+    "constructionTag": "Quality builds from foundation to finish",
     "fire": "Fire & Safety Solutions",
-    "transport": "Road Transport Contractors"
+    "fireTag": "Certified fire protection & safety systems",
+    "transport": "Road Transport Contractors",
+    "transportTag": "Reliable road haulage & logistics"
   },
   "featured": { "eyebrow": "Featured Listings", "title": "Properties worth signing for", "viewAll": "View Full Gallery" },
   "servicesPreview": { "eyebrow": "What We Offer", "title": "Services under one signature", "viewAll": "View All Services", "enquire": "Enquire Now" },
